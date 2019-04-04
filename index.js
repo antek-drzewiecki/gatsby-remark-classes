@@ -1,6 +1,6 @@
 const visit = require('unist-util-visit');
 
-const applyClassesToNode = require('./applyClassesToNode');
+const applyClassesToNode = require('./src/applyClassesToNode');
 
 module.exports = (
     { markdownAST },
